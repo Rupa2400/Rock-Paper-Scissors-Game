@@ -49,7 +49,7 @@ def Reset():
 def Exit():
     root.destroy()
 
-Entry(root, font='arial 10 bold', textvariable = Result, bg='antiquewhite2', width=50).place(x=25, y=250)
+Entry(root, font='arial 10 bold', textvariable = Result, bg='antiquewhite2', width=55).place(x=5, y=240)
 
 Button(root, font='arial 13 bold', text='PLAY',  padx=5, bg='seashell4', command = play).place(x=150, y=190)
 
